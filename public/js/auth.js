@@ -56,7 +56,15 @@ firebase.auth().onAuthStateChanged((user) => {
     authWrapper.classList.remove("open");
     authModals.forEach((modal) => modal.classList.remove("active"));
   } else {
-    authWrappar.classList.add("open");
+    authWrapper.classList.add("open");
     authModals[0].classList.add("active");
   }
+});
+
+// sign out
+signOut.addEventListener("click", () => {
+  firebase
+    .auth()
+    .signOut()
+    .then(() => console.log("signed out"));
 });
