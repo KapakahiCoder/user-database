@@ -70,17 +70,17 @@
       </nav>
     </header>
 
-    <section class="content">
+    <section class="content" id="app">
       <h1>Users</h1>
       <ul class="user-list">
-        <li>
-          <span class="text">Cleo Cat</span>
-        </li>
-        <li>
-          <span class="text">Emma Makana</span>
+        <li v-for="user in users">
+          <span class="text">{{ user.firstName }} {{ user.lastName }}</span>
         </li>
       </ul>
     </section>
+
+    <!-- For vue component -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/9.14.0/firebase-app-compat.js"></script>
@@ -101,5 +101,6 @@
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
     <script src="js/app.js"></script>
     <script defer src="js/auth.js"></script>
+    <script defer src="js/users.js"></script>
   </body>
 </html>
