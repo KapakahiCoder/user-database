@@ -12,6 +12,12 @@ ul{
   padding: 0;
 }
 
+label{
+  font-weight: bold;
+  font-family: Satisify;
+
+}
+
 /* header styles */
 header{
   width: 100%;

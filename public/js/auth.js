@@ -42,7 +42,6 @@ loginForm.addEventListener("submit", (e) => {
     .auth()
     .signInWithEmailAndPassword(email, password)
     .then((user) => {
-      console.log("logged in", user);
       loginForm.reset();
     })
     .catch((error) => {

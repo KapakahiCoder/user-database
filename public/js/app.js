@@ -28,7 +28,7 @@ newUserForm.addEventListener("submit", (e) => {
     state: newUserForm.state.value,
     zipCode: newUserForm.zipCode.value,
   })
-  .then(()=> {
+  .then(() => {
     newUserForm.reset();
     newUserModal.classList.remove("open");
     newUserForm.querySelector(".error").textContent = "";
