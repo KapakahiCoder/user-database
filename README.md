@@ -5,13 +5,13 @@ An app where you can log in and add people to the database. Users added to the d
 ### Here's some picture of the app:
 
 Form for users to fill out people that need to be added to the database:
-![newUserForm](/assets/newUser.png)
+![newUserForm](./public/assets/newUser.png)
 
 List of all users:
-![userList](/assets/userList.png)
+![userList](./public/assets/userList.png)
 
 Email that is sent out to all registered users:
-![sentEmail](/assets/email.png)
+![sentEmail](./public/assets/email.png)
 
 ## Project setup
 
@@ -21,10 +21,10 @@ firebase serve
 
 ## Built with
 
-Javascript
-CSS
-Firebase
-Google Cloud Functions
+- [Javascript](https://developer.mozilla.org/en/JavaScript)
+-[CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Firebase] (https://firebase.google.com/)
+- [Google Cloud Functions] (https://firebase.google.com/docs/functions)
 
 ## Contributing
 
@@ -39,6 +39,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Garrett Chun - [![Github][1.1]][1] [![Twitter][1.2]][2]
 
 [1.1]: http://i.imgur.com/9I6NRUm.png
-[1.2]: /assets/twitter20.png
+[1.2]: ./public/assets/twitter20.png
 [1]: https://github.com/KapakahiCoder
 [2]: http://www.twitter.com/KapakahiCoder
