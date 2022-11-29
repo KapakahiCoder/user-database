@@ -1,16 +1,19 @@
 # User Database
 
-An app where you can log in and add people to the database. Users added to the database will be automatically sent an email telling them what information was recorded.
+An app where you can log in and add people to the database. Users added to the database will automatically be sent an email telling them what information was recorded.
 
 ### Here's some picture of the app:
 
-Form for users to fill out people that need to be added to the database:
+<u>Form for users to fill out people that need to be added to the database:</u>
 ![newUserForm](./public/assets/newUser.png)
 
-List of all users:
+
+<u>List of all users:</u>
 ![userList](./public/assets/userList.png)
 
-Email that is sent out to all registered users:
+
+
+<u>Email that is sent out to all registered users:</u>
 ![sentEmail](./public/assets/email.png)
 
 ## Project setup
@@ -22,9 +25,9 @@ firebase serve
 ## Built with
 
 - [Javascript](https://developer.mozilla.org/en/JavaScript)
--[CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Firebase] (https://firebase.google.com/)
-- [Google Cloud Functions] (https://firebase.google.com/docs/functions)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Firebase](https://firebase.google.com/)
+- [Google Cloud Functions](https://firebase.google.com/docs/functions)
 
 ## Contributing
 
