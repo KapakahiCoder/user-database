@@ -2,18 +2,20 @@
 
 An app where you can log in and add people to the database. Users added to the database will automatically be sent an email telling them what information was recorded.
 
+Try it out: [User Database](https://user-database-84d38.web.app/)
+
 ### Here's some picture of the app:
 
-<u>Form for users to fill out people that need to be added to the database:</u>
+<strong>Form for users to fill out people that need to be added to the database:</strong>
 ![newUserForm](./public/assets/newUser.png)
 
 
-<u>List of all users:</u>
+<strong>List of all users:</strong>
 ![userList](./public/assets/userList.png)
 
 
 
-<u>Email that is sent out to all registered users:</u>
+<strong>Email that is sent out to all registered users:</strong>
 ![sentEmail](./public/assets/email.png)
 
 ## Project setup
