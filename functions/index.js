@@ -5,10 +5,17 @@ admin.initializeApp();
 
 // http callable function to add a user
 exports.addUser = functions.https.onCall((data, context) => {
+  console.log(data, "!!!!!!");
   if (!context.auth) {
     throw new functions.https.HttpsError(
         "unauthenticated",
         "You must be authenticated to add a user"
+    );
+  // TODO: Add more input validation checks
+  } else if (data.age < 0) {
+    throw new functions.https.HttpsError(
+        "invalid-argument",
+        "Please enter an age that's greater than 0"
     );
   }
   return admin.firestore().collection("users").add({
@@ -34,7 +41,7 @@ exports.sendMail = functions.firestore
       const age = user.age;
       const address = user.address;
 
-      admin.firestore().collection("mail").add({
+      return admin.firestore().collection("mail").add({
         to: email,
         message: {
           subject: "Welcome new user!",
